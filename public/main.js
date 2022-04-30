@@ -1,4 +1,4 @@
-unction run() {
+function run() {
   fetch("/api/movie")
     .then((response) => response.json())
     .then((data) => {
