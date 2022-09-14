@@ -23,7 +23,7 @@ app.get("/api/movie", async function (req, res) {
 
     // Query for a movie that has the title 'Back to the Future'
     //const query = { cuisine: "American", poster: { $exists: true } };
-    const query = { genres: "Comedy", poster: { $exists: true } };
+    const query = { genres: "Action", poster: { $exists: true } };
     const cursor = await collection.aggregate([
       { $match: query },
       { $sample: { size: 1 } },
