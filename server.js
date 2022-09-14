@@ -4,8 +4,8 @@ const app = express();
 
 const { MongoClient } = require("mongodb");
 
-const uri = "mongodb+srv://edgegum_sa_east:mK8VfFVI9IrOMbl3@edge-sa-east.e3ftd.mongodb.net/sample_mflix?retryWrites=true&w=majority"
-//const uri = "https://cloud.mongodb.com/v2/626adf62529b6740ad662adc#metrics/replicaSet/62d6cd68a5d4662429de1e50/explorer/sample_restaurants/restaurants/find"
+//const uri = "mongodb+srv://edgegum_sa_east:mK8VfFVI9IrOMbl3@edge-sa-east.e3ftd.mongodb.net/sample_mflix?retryWrites=true&w=majority"
+const uri = "mongodb+srv://edgegum_sa_east:pCduin@m0ng0@edge-sa-east.e3ftd.mongodb.net/?retryWrites=true&w=majority/sample_restaurants?retryWrites=true&w=majority"
 // use the express-static middleware
 app.use(express.static("public"));
 
